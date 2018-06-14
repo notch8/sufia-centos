@@ -1,7 +1,7 @@
 ---
 - name: download libpng source
   get_url:
-    url: https://downloads.sourceforge.net/project/libpng/libpng{{ libpng_major }}/{{ libpng_ver }}/libpng-{{ libpng_ver }}.tar.xz
+    url: https://sourceforge.net/projects/libpng/files/libpng{{ libpng_major }}/older-releases/{{ libpng_ver }}/libpng-{{ libpng_ver }}.tar.xz/download
     dest: "{{ magick_path }}/libpng-{{ libpng_ver }}.tar.xz"
     sha256sum: "{{ libpng_256 }}"
 
